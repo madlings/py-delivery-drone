@@ -11,7 +11,7 @@ class BaseRobot:
                  name: str,
                  weight: float,
                  coords: Optional[List[int]] = None
-                ) -> None:
+    ) -> None:
         self.name = name
         self.weight = weight
         self.coords = coords if coords is not None else [0, 0]
